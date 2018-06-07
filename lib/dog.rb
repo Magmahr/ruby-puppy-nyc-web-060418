@@ -15,7 +15,7 @@ self.all
   @@all.each do |dog|
     puts "#{dog}"
   end
-end
+
 
 self.clear_all
   @@all.clear

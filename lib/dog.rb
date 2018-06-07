@@ -11,13 +11,13 @@ def initialize(name)
   @@all << self
 end
 
-self.all
+def self.all
   @@all.each do |dog|
     puts "#{dog}"
   end
 end
 
-self.clear_all
+def self.clear_all
   @@all.clear
 end
 
